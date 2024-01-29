@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# Ignite Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Ignite Todo List App is a feature-rich task management application developed with the Ignite UI toolkit. This app provides a seamless and user-friendly interface for creating, managing, and organizing your tasks efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Ignite UI Integration
 
-## Expanding the ESLint configuration
+Built with the Ignite UI toolkit, the app offers a modern and visually appealing design. Leverage the rich set of UI components to enhance the user experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 2. Task Management
 
-- Configure the top-level `parserOptions` property like this:
+Effortlessly create, update, and delete tasks. Stay organized by managing your to-do list with ease, improving productivity and efficiency.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### 3. Responsive Design
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The app is designed with responsiveness in mind, ensuring a consistent and enjoyable experience across various devices and screen sizes.
+
+## Getting Started
+
+To set up the Ignite Todo List App, follow these steps:
+
+1. **Clone the Repository**: Clone this repository to your local machine.
+
+    ```bash
+    git clone https://github.com/Newton-Duarte/ignite-todo-list.git
+    ```
+
+2. **Install Dependencies**: Install the necessary dependencies for the app.
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the App**: Start the app locally.
+
+    ```bash
+    npm run dev
+    ```
+
+    Visit [http://localhost:3000](http://localhost:3000) in your browser to start managing your tasks.
+
+## Contribution
+
+Contributions to the Ignite Todo List App are welcome! If you have suggestions, feature requests, or encounter any issues, feel free to open an issue or submit a pull request.
