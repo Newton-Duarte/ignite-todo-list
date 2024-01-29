@@ -29,6 +29,15 @@
   color: var(--blue-dark);
 }
 
+.todo p {
+  color: var(--gray-100);
+}
+
+.todo p.isCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
 .delete {
   background-color: var(--gray-500);
   outline: none;

@@ -21,9 +21,15 @@ export function Task({ task, onToggleComplete, onDelete }: TaskProps) {
         className={styles.checkbox}
         onClick={() => onToggleComplete(task.id)}
       >
-        {task.isCompleted ? <CheckCircle size={24} /> : <Circle size={24} />}
+        {task.isCompleted ? (
+          <CheckCircle size={24} weight="fill" color="var(--purple-dark)" />
+        ) : (
+          <Circle size={24} />
+        )}
       </button>
-      <p>{task.title}</p>
+      <p className={task.isCompleted ? styles.isCompleted : undefined}>
+        {task.title}
+      </p>
       <button
         type="button"
         className={styles.delete}
