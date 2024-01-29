@@ -37,3 +37,8 @@ body, input, textarea, button {
 button:not(:disabled) {
   cursor: pointer;
 }
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
