@@ -32,15 +32,15 @@ export function App() {
   })
 
   function handleCreateTask(data: TaskFormInputs) {
-    const lastTask = tasks[tasks.length - 1]
+    const lastTask = tasks[0]
 
     setTasks((state) => [
-      ...state,
       {
         id: lastTask ? lastTask.id + 1 : 1,
         title: data.title,
         isCompleted: false,
       },
+      ...state,
     ])
 
     reset()
